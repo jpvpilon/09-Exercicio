@@ -1,4 +1,4 @@
-public class Cilindro extends Forma {
+public class Cilindro extends Forma implements Volume{
     private double altura;
 
     public Cilindro(int coordenadaX, int coordenadaY, double raio, double altura) {
@@ -29,4 +29,5 @@ public class Cilindro extends Forma {
     public void setAltura(double altura) {
         this.altura = altura;
     }
+
 }
